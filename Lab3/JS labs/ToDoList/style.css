@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Open Sans', "sans-serif";
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue ;
+    color: #1c1e21;
+}
+
+.logo{
+    background: antiquewhite;
+    color: #1c1e21;
+    height: 40px;
+    font-size: 30px;
+}
+#Logo{
+    background: wheat;
+    width: 200px;
+    height: 40px;
+}
+.name{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+input, button{
+    border-radius: 8px;
+    border: none;
+    outline: #2e3d49;
+}
+#todoInput{
+    padding: 10px;
+    width: 300px;
+    margin-right: 50px;
+    box-shadow: 0 0 0 2px #E7F3FF;
+}
+#deleteButton{
+    box-shadow: 0 0 0 2px #E7F3FF;
+    margin-left: 10px;
+}
+#addButton{
+    box-shadow: 0 0 0 2px #E7F3FF;
+}
+.name{
+    text-align: center;
+    font-size: 15px;
+    padding-top: 10px;
+}
+button:hover {
+    background-color: #3e8e41;
+}
+form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.list{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+li {
+    display: flex;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+li input[type="checkbox"] {
+    margin-right: 10px;
+}
