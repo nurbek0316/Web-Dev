@@ -1,0 +1,22 @@
+<div class="wrapper-item">
+  <div class="wrapper-item-img"><img [src]="product.imgURL" /></div>
+
+  <div class="wrapper-item-right">
+    <h3>
+      <a [href]="product.url" [title]="product.name" target="_blank">
+        {{ product.name }}
+      </a>
+    </h3>
+
+    <p>{{ product.description }}</p>
+    <p><b>Rating:</b> {{ product.rating }}</p>
+    <p><b>Price:</b> {{ formatedPrice(product.price) }} ₸</p>
+    <p><b>Likes:</b> {{ product.likes }}</p>
+    <div class="buttons">
+      <button (click)="handleLike()">
+        <fa-icon [icon]="heart"></fa-icon>
+      </button>
+      <button (click)="handleDelete()">X</button>
+    </div>
+  </div>
+</div>

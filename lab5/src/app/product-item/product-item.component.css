@@ -1,0 +1,39 @@
+.wrapper-item {
+    width: 400px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.wrapper-item-right {
+    padding-left: 20px;
+}
+
+.wrapper-item-right p {
+    padding-top: 5px;
+}
+
+img {
+    width: auto;
+    height: 120px;
+}
+
+button {
+    background-color: rgb(255, 255, 255);
+    border-style:inset;
+    cursor: pointer;
+}
+
+.buttons {
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons button {
+    width: 40px;
+}
